@@ -1,0 +1,192 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #header {
+    display: flex;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+   
+  }
+  
+  
+  /*CONTAINNER ****************************** */
+  #container {
+    max-width: 960px;
+    margin: 20px auto 0;
+    overflow: hidden;
+  }
+  
+  .logo {
+    width: 300px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 12px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f1c40f;
+  }
+  
+  .nav-link {
+      float: left;
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  
+  .nav-link :hover {
+
+       background-color:#f1c40f;
+  }
+  
+  .message-box  {
+    margin: 50px;
+    padding: 10px; 
+    text-align: center;
+  }
+  
+  .message-box h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .message-box input {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #features {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #features .feature {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+  
+  #features .feature i {
+    color: #ff8c00;
+  }
+  
+  #features .feature div {
+    padding: 10px;
+    margin-left: 20px;
+  }
+  
+  #features .feature div h2 {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  
+  #how-it-work {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #how-it-work #video {
+    width: 600px;
+    height: 340px;
+  }
+  
+  #pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 8px;
+  }
+  
+  .price-box {
+    border: solid #333 3px;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  .price-box:first-child {
+    margin-right: 12px;
+  }
+  
+  .price-box:last-child {
+    margin-left: 12px;
+  }
+  
+  .price-box h3 {
+    background-color: #ddd;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .price-box h2 {
+    padding: 10px;
+  }
+  
+  .price-box p {
+    padding: 0 20px 10px;
+  }
+  
+  .price-box .btn {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* FOOTER *******************************/
+  #main-footer {
+    background-color: #ccc;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+
+  
+  #fcs {
+    text-decoration: underline;
+    color: #333;
+  }
+  
+  
